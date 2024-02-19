@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML by Valerie Dollery</title>
+</head>
+
+<body>
+<h1>Introduction to HTML by Valerie Dollery</h1>
+<h2>Doctype</h2>
+	<p>the Doctype informs the browser what type of document to expect</p>
+<h3>example of the code</h3>
+	<p>&lt;!doctype html&gt;</p>
+	
+
+<h2>html</h2>
+	<h3>HTML is the standard markup language for creating Web pages</h3>
+	<p>&lt;html&gt;&lt;/html&gt;</p>
+	
+
+	
+<h2>head</h2>
+<h3>This element is a container for metadata (data about data) and is placed between the html tag and the body tag </h3>
+<p>&lt;head&gt;&lt;/head&gt;</p>
+	
+
+	
+<h2>body</h2>
+	<h3>This element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.There can only be one body element in an HTML document</h3>
+	<p>&lt;body&gt;&lt;/body&gt;</p>
+	
+
+	
+<h2>title</h2>
+	<h3>This tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</h3>
+	<p>&lt;title&gt;&lt;/title&gt;</p>
+	
+	
+<h2>p</h2>
+<h3>The HTML element defines a paragraph.A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph. </h3>
+	<h3>working example</h3>
+	<p>&lt;p&gt;This is a paragraph&lt;/p&gt;</p>
+<p>This is a paragraph</p>
+	
+	
+	<h2>span</h2>
+<h3>This tag is an inline container used to mark up a part of a text, or a part of a document.This tag is easily styled by CSS. The tag is much like the div element, but div is a block-level element and span is an inline element. </h3>
+	<p>My name is&lt;span&gt;Valerie&lt;/span&gt;</p>
+	
+	<h3>working example</h3>
+	<p>	My name is <span style="color:aqua"> Valerie</span> </p>
+	
+
+	
+<h2>div</h2>
+	<h3>This tag defines a division or a section in an HTML document </h3>
+	
+Lorem Ipsum <div style="color:red"> I am a div</div> dolor sit amet.
+	<h3>working example</h3>
+	Lorem Ipsum <div style="color:red"> I am a div</div> dolor sit amet.
+	
+	
+	
+<h2>Heading elements - h1 to h6</h2>
+	<h3>The h1 to h6 tags are used to define HTML headings</h3>
+	<p>&lt;p&gt; &lt;h1&gt;Heading 1&lt;/h1&gt; &lt;h2&gt;Heading 2&lt;/h2&gt; &lt;h3&gt;Heading 3&lt;/h3&gt; &lt;h4&gt;Heading 4&lt;/h4&gt; &lt;h5&gt;Heading 5&lt;/h5&gt; &lt;h6&gt;Heading 6&lt;/h6&gt;&lt;/p&gt;</p>
+<h3>working example</h3>
+	<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+	
+
+
+<h2>Formatting Elements - strong emphasis</h2>
+<h3>The strong tag is used to define text with strong importance. The content inside is typically displayed in bold. The em tag is used to define emphasized text. The content inside is typically displayed in italic</h3>
+	<p>&lt;p&gt; &lt;strong&gt; - Important text &lt;/strong&gt; &lt;em&gt; - Emphasized text &lt;/em&gt; &lt;/p&gt;</p>
+<h3>working example</h3>
+	<strong> - Important text </strong>
+	<em> - Emphasized text </em>
+
+
+
+<h2>tables &amp; caption </h2>
+	<h3>HTML tables allow web developers to arrange data into rows and columns.The caption tag defines a table caption,the caption tag must be inserted immediately after the table tag. </h3>
+	<p>&lt;table&gt; &lt;caption&gt; Email information &lt;/caption&gt; &lt;tr&gt; &lt;td&gt;Emil&lt;/td&gt; &lt;td&gt;Tobias&lt;/td&gt; &lt;td&gt;Linus&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</p>
+
+<h3>working example</h3>
+<table>
+	<caption> Email information </caption>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+</table>
+	
+	
+
+<h2>lists</h2>
+<h3>HTML lists allow web developers to group a set of related items in lists. An ordered list is a numbered list. An unordered list is a bulleted list and a definition list is a list of terms with a description of each.</h3>
+<p>&lt;ul&gt; &lt;h2&gt;Unordered List&lt;/h2&gt; &lt;li&gt;Coffee&lt;/li&gt; &lt;li&gt;Tea&lt;/li&gt; &lt;li&gt;Milk&lt;/li&gt; &lt;/ul&gt;&lt;/p&gt;</p>
+<p>&lt;p&gt;&lt;ol&gt; &lt;h2&gt;Ordered List&lt;/h2&gt; &lt;li&gt;Coffee&lt;/li&gt; &lt;li&gt;Tea&lt;/li&gt; &lt;li&gt;Milk&lt;/li&gt; &lt;/ol&gt;&lt;/p&gt;</p>
+<p>&lt;p&gt;&lt;dl&gt; &lt;h2&gt;Definition List&lt;/h2&gt; &lt;dt&gt;Coffee&lt;/dt&gt; &lt;dd&gt;- black hot drink&lt;/dd&gt; &lt;dt&gt;Milk&lt;/dt&gt; &lt;dd&gt;- white cold drink&lt;/dd&gt; &lt;/dl&gt;&lt;/p&gt;</p>
+
+<h3>working example</h3>
+<ul>
+<h2>Unordered List</h2>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ul>
+	
+
+<ol>
+<h2>Ordered List</h2>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ol>
+	
+
+<dl>
+<h2>Definition List</h2>
+<dt>Coffee</dt>
+<dd>- black hot drink</dd>
+<dt>Milk</dt>
+<dd>- white cold drink</dd>
+</dl>
+	
+
+	
+<h2>Images &amp; alt </h2>
+<h3>Images can improve the design and the appearance of a web page. Alt - Specifies an alternate text for the image</h3>
+<p>&lt;img src="images/alcatraz.jpg" width="400" height="266" alt=""/&gt;</p>
+<h3>working example</h3>
+<img src="images/alcatraz.jpg" width="400" height="266" alt=""/>
+	
+	
+
+<h2>links</h2>
+<h3>The link tag defines the relationship between the current document and an external resource</h3>
+<p>&lt;a href="https://www.w3schools.com/"&gt;Visit W3Schools.com!&lt;/a&gt;</p>
+<h3>working example</h3>
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+	
+	
+	
+<h2>quote &amp; blockquote</h2>
+<h3>The blockquote tag specifies a section that is quoted from another source and is usually indented.The HTML q tag defines a short quotation.  </h3>
+<p>&lt;blockquote cite="http://www.worldwildlife.org/who/index.html"&gt;<br>
+  For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.<br>
+  &lt;/blockquote&gt;</p>
+<p>&lt;p&gt;WWF's goal is to: &lt;q&gt;Build a future where people live in harmony with nature.&lt;/q&gt;&lt;/p&gt;</p>
+<h3>working example</h3>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+	
+	
+	
+<h2>Abbreviations</h2>
+<h3>The abbr tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</h3>
+<p>The &lt;abbr title="World Health Organization"&gt;WHO&lt;/abbr&gt; was founded in 1948.</p>
+<h3>working example</h3>
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+	
+	
+	
+<h2>Meta</h2>
+	<h3>The meta tag defines metadata about an HTML document. Metadata is data (information) about data. Metadata will not be displayed on the page, but is machine parsable.</h3>
+	<p>&lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;meta name="description" content="Free Web tutorials"&gt; &lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt; &lt;meta name="author" content="John Doe"&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; &lt;/head&gt;</p>
+
+
+	
+<h2>Forms</h2>
+	<h3>The form element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc</h3>
+	<p>&lt;form action="/action_page.php" method="get"&gt;<br>
+	    &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>
+	    &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;<br>
+	    &lt;label for="lname"&gt;Last name:&lt;/label&gt;<br>
+	    &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;<br>
+	    &lt;input type="submit" value="Submit"&gt;<br>
+    &lt;/form&gt;</p>
+	<h3>working example</h3>
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+	
+	
+	
+<h2>special symbols and character entities:</h2>
+<h3>example of the code</h3>
+<ul>
+<p>&lt;li&gt;I will display &amp;copy;&lt;/li&gt; </p>
+<p>&lt;li&gt;I will display &amp;trade;&lt;/li&gt;</p>
+<p> &lt;li&gt;I will display &amp;reg;&lt;/li&gt;</p>
+<p>&lt;li&gt;I will display &amp;reg;&lt;/li&gt;</p>
+<p>&lt;li&gt;I will display &amp;euro;&lt;/li&gt;</p>
+<p> &lt;li&gt;A space &amp;nbsp; character: &lt;/li&gt;</p>
+<p>&lt;li&gt;The less-than sign: &amp;lt;&lt;/li&gt;</p>
+<p>&lt;li&gt;The greater-than sign: &amp;gt;&lt;/li&gt;</p>
+<p>&lt;li&gt;The ampersand (and) sign: &amp;amp;&lt;/li&gt;</p>
+</ul>
+
+<h3>working example </h3>
+
+<li>I will display &copy;</li>
+	<li>I will display &trade;</li>
+	<li>I will display &reg;</li>
+	<li>I will display &euro;</li>
+	<li>A space &nbsp; character: </li>
+	<li>The less-than sign: &lt;</li>
+	<li>The greater-than sign: &gt;</li>
+	<li>The ampersand (and) sign: &amp;</li>
+	
+
+<a href="css_assignment.html">CSS</a>	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>
